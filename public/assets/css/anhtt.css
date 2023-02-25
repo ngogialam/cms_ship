@@ -1,0 +1,97 @@
+.bg-cw{
+    background-color: white;
+}
+
+.pd-smorder{
+    padding: 0px 0px 0px 10px!important;
+}
+
+.mg-smorder{
+    margin-bottom: 0px!important;
+}
+.orderDetail{
+    padding-right:0px!important;
+}
+
+.width100{
+    width: 100%!important;
+}
+
+.input_size{
+    float: left;
+    padding: 7px 5px 0px 0px;
+}
+
+@media screen and (max-width: 575px) {
+    #ewallet .ew-slide2{
+        width: 100%!important;
+    }
+    .ew-rd-tt{
+        margin-left: 10px!important;
+    }
+}
+.pdlr15{
+    padding: 0 15px;
+}
+.imgDefault{
+opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
+.err_messagesp{
+    color: red;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+    list-style-position: outside;
+}
+.pd10{
+    padding: 10px;
+}
+.controlCycleWrap {
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.controlCycleWrap .toggle-password {
+    position: absolute;
+    right: 14px;
+    top: 12px;
+}
+
+.controlCycleWrap>input {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 13px;
+    padding-left: 12px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.controlCycleWrap>input::placeholder {
+    color: #918E96;
+}
+
+#connectbank #info-detail-new>div .contactInfoWrap {
+    background-color: white;
+    border-radius: 5px;
+    /* padding-bottom: 50px; */
+    min-height: 408px;
+    height: 100%;
+}
+
+.modalNotiContract{
+    text-align: left;
+    padding-left: 15%;
+}
+.showModalContract{
+    padding-right: 16px;
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+}
+.choosenPickup{
+    max-height:500px; 
+    overflow-y: scroll;
+}
